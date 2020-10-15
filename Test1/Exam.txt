@@ -1,0 +1,17 @@
+1.SELECT name FROM staffs
+2.SELECT DISTINCT department_id FROM staffs
+3.SELECT * FROM staffs ORDER BY name
+4.SELECT * FROM staffs ORDER BY name AND
+department_id DESC
+5.SELECT * FROM staffs WHERE name="Kay Thwe" OR name="Thae Su Wai"
+6.SELECT * FROM staffs INNER JOIN departments ON staffs.department_id=departments.id WHERE  departments.name="Admin"
+7.SELECT * FROM staffs WHERE name LIKE "%a%"
+8.SELECT * FROM staffs WHERE name LIKE "%e"
+9.SELECT * FROM staffs WHERE
+salary BETWEEN 100000 AND 5000000
+10.SELECT *FROM staffs WHERE joindate ="2020-2-20"
+11.SELECT COUNT(*)  FROM staffs INNER JOIN departments ON staffs.department_id=departments.id WHERE  departments.name="Admin"
+12.SELECT * FROM staffs INNER JOIN departments ON staffs.department_id=departments.id WHERE  departments.name="Manager"
+13.SELECT * FROM staffs LIMIT 5
+14.SELECT MAX(salary) FROM staffs LIMIT 3
+15.SELECT SUM(salary) FROM staffs
